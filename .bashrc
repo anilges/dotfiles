@@ -117,5 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 # Personal settings
-echo "Hello"
 set -o vi
