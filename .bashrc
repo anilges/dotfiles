@@ -118,3 +118,4 @@ fi
 
 # Personal settings
 set -o vi
+export EDITOR=vi
