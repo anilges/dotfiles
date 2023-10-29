@@ -177,4 +177,8 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
         \   'sh': ['shellcheck'],
         \   'go': ['gometalinter', 'gofmt','gobuild'],
         \}
+  let g:ale_fixers = {
+        \   'python': ['autopep8'],
+        \}
+  let g:ale_fix_on_save = 1
 endif
